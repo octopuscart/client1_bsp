@@ -45,8 +45,8 @@ $this->load->view('layout/header');
                         <li class="con-phone">+(852) 2730 8566</li>
 
                         <li class=""><i class="con-clock fa fa-clock-o"></i> <span class="timeing_opensm">Opening Hours</span><br/>
-                            <span class="timeing_open">Mon - Sat</span>: 09:00 to 19:00 <br/>
-                            <span class="timeing_open">Sun & Holidays</span>: 09:00 to 18:00
+                            <span class="timeing_open">Mon - Sat</span>: 09:00 AM to 07:00 PM <br/>
+                            <span class="timeing_open">Sun & Holidays</span>: 09:00 AM to 03:00 PM
                         </li>
                     </ul>
 
@@ -67,7 +67,7 @@ $this->load->view('layout/header');
             </div>
         </div>
         <div class="row" style="margin-top: 20px;">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<!--            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="contact-us-right">
 
                     <h2 class="title-sidebar" style="margin-bottom: 10px;">Shop Address</h2>
@@ -112,7 +112,7 @@ $this->load->view('layout/header');
                 <div class="contact-us-left" > 
 
                 </div>
-            </div>
+            </div>-->
 
 
         </div>
@@ -136,7 +136,7 @@ $this->load->view('layout/header');
                                         map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
                                         marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(22.297975, 114.17118299999993)});
 
-                                        marker2 = new google.maps.Marker({map: map, position: new google.maps.LatLng(22.2967832, 114.1709048)});
+//                                        marker2 = new google.maps.Marker({map: map, position: new google.maps.LatLng(22.2967832, 114.1709048)});
 
 
 
@@ -149,12 +149,12 @@ $this->load->view('layout/header');
 
 
 
-                                        infowindow = new google.maps.InfoWindow({content: '<strong>Bespoke Tailors Shop</strong><br>Shop D, Ground Floor, Hanyee Building, 19-21 Hankow Road , Tsim Sha Tsui, Kowloon , Hong Kong.<br>'});
-
-                                        google.maps.event.addListener(marker2, 'click', function () {
-                                            infowindow.open(map, marker2);
-                                        });
-                                        infowindow.open(map, marker2);
+//                                        infowindow = new google.maps.InfoWindow({content: '<strong>Bespoke Tailors Shop</strong><br>Shop D, Ground Floor, Hanyee Building, 19-21 Hankow Road , Tsim Sha Tsui, Kowloon , Hong Kong.<br>'});
+//
+//                                        google.maps.event.addListener(marker2, 'click', function () {
+//                                            infowindow.open(map, marker2);
+//                                        });
+//                                        infowindow.open(map, marker2);
 
                                     }
                                     google.maps.event.addDomListener(window, 'load', init_map);</script>
