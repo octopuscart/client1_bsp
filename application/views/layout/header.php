@@ -107,12 +107,12 @@
                 var imageurlg = "<?php echo imageserver; ?>";
                 var globlecurrency = "<?php echo globle_currency; ?>";
                 var avaiblecredits = 0;
-//                setInterval(function(){
-//                        $(".smat-footer").hide();
-//                }, 2000);
-//                setTimeout(function(){
-//                $(".smat-footer").hide();
-//                }, 2000);
+                setInterval(function(){
+                        $(".smat-footer").hide();
+                }, 2000);
+                setTimeout(function(){
+                $(".smat-footer").hide();
+                }, 2000);
             </script>
 
             <style>
