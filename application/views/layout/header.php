@@ -61,7 +61,7 @@
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
             <![endif]-->
-    <script>var chatbot_id=7449;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();</script><script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+        <script>var chatbot_id = 7449; !function(){var t, e, a = document, s = "smatbot-chatbot"; a.getElementById(s) || (t = a.createElement("script"), t.id = s, t.type = "text/javascript", t.src = "https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz", e = a.getElementsByTagName("script")[0], e.parentNode.insertBefore(t, e))}();</script><script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
     </head>
 
 
@@ -106,7 +106,14 @@
                 var baseurl = "<?php echo site_url(); ?>";
                 var imageurlg = "<?php echo imageserver; ?>";
                 var globlecurrency = "<?php echo globle_currency; ?>";
-                var avaiblecredits = 0;</script>
+                var avaiblecredits = 0;
+                setInterval(function(){
+                        $(".smat-footer").hide();
+                }, 2000);
+                setTimeout(function(){
+                $(".smat-footer").hide();
+                }, 2000);
+            </script>
 
             <style>
                 .ownmenu .dropdown.megamenu .dropdown-menu li:last-child{
@@ -439,15 +446,15 @@
                 </div>
             </header>
             <div class="showonmobile" style="    color: white;
-                     background: red;">
-                    <div class="container">
-                        <h2 style="    margin: 0;">
-                            <marquee>
-                                Special Seasonal Offer 25% off on all products.
-                            </marquee>
-                        </h2>
-                    </div>
+                 background: red;">
+                <div class="container">
+                    <h2 style="    margin: 0;">
+                        <marquee>
+                            Special Seasonal Offer 25% off on all products.
+                        </marquee>
+                    </h2>
                 </div>
+            </div>
             <!-- Header Area End Here -->
 
 
