@@ -173,9 +173,9 @@ $image2 = "";
 
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 animated zoomIn"  ng-repeat="(k, product) in productResults.products">
                                 <div class="product-box1" >
-                                    <ul class="product-social">
+<!--                                    <ul class="product-social">
                                         <li><a href="#" data-toggle="modal" data-target="#myModal" ng-click="viewShortDetails(product, '<?php echo site_url("Product/customizationRedirect/") ?><?php echo $custom_id; ?>/' + product.product_id)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                    </ul>
+                                    </ul>-->
                                     <div class="product-img-holder" style="background: url(https://files.costcokart.com/bespoke/{{product.folder}}.jpg);    background-size: 300px;
                                          background-position: -20px -20px;">
 
