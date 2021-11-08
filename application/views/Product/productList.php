@@ -176,7 +176,7 @@ $image2 = "";
 <!--                                    <ul class="product-social">
                                         <li><a href="#" data-toggle="modal" data-target="#myModal" ng-click="viewShortDetails(product, '<?php echo site_url("Product/customizationRedirect/") ?><?php echo $custom_id; ?>/' + product.product_id)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
                                     </ul>-->
-                                    <div class="product-img-holder" style="background: url(https://files.costcokart.com/bespoke/{{product.folder}}.jpg);    background-size: 300px;
+                                    <div class="product-img-holder" style="background: url(https://files.bespoketailorshk.com/{{product.folder}}.jpg);    background-size: 300px;
                                          background-position: -20px -20px;">
 
                                     </div>
@@ -265,7 +265,7 @@ $image2 = "";
 
                             <div class="col-sm-12 col-md-3" ng-repeat="product in askpricedata" ng-if="product.item_id == '<?php echo $citem_id; ?>'">
                                 <div class="thumbnail">
-                                    <img src="https://files.costcokart.com/bespoke/{{product.folder}}.jpg" alt="" style="width: auto;" alt="...">
+                                    <img src="https://files.bespoketailorshk.com/{{product.folder}}.jpg" alt="" style="width: auto;" alt="...">
 
                                     <div class="caption">
                                         <h5 style="font-size:15px;" class="text-center m_bottom_10">{{product.title}}</h5>
