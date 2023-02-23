@@ -176,7 +176,7 @@ $image2 = "";
 <!--                                    <ul class="product-social">
                                         <li><a href="#" data-toggle="modal" data-target="#myModal" ng-click="viewShortDetails(product, '<?php echo site_url("Product/customizationRedirect/") ?><?php echo $custom_id; ?>/' + product.product_id)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
                                     </ul>-->
-                                    <div class="product-img-holder" style="background: url(https://files.bespoketailorshk.com/{{product.folder}}.jpg);    background-size: 300px;
+                                    <div class="product-img-holder" style="background: url(https://files.bespoketailorhk.com/{{product.folder}}.jpg);    background-size: 300px;
                                          background-position: -20px -20px;">
 
                                     </div>
